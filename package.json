@@ -1,0 +1,25 @@
+{
+  "name": "model-from-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --use_strict ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyLuk90/model-from-json.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/WesleyLuk90/model-from-json/issues"
+  },
+  "homepage": "https://github.com/WesleyLuk90/model-from-json#readme",
+  "devDependencies": {
+    "eslint": "^3.6.0",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "jasmine": "^2.5.2"
+  }
+}
