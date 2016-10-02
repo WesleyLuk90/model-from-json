@@ -21,7 +21,7 @@ class Precondition {
 
 	static isObject(value, name) {
 		Precondition.validateName(name);
-		if (typeof value !== 'object' || typeof value == null) {
+		if (typeof value !== 'object' || value == null) {
 			throw new Error(`Expected ${name} to be an object`);
 		}
 	}
